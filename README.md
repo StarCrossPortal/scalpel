@@ -142,7 +142,7 @@ mitm:
 ```
 注意，队列长度的大小需要根据您的机器内存来进行调整，默认是3000，一般情况下都是可以的。
 # POC编写说明
-有关POC的编写，见[POC编写指南](https://github.com/StarCrossPortal/scalpel.wiki.git)
+有关POC的编写，见[POC编写指南](https://github.com/StarCrossPortal/scalpel/wiki/POC%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97)
 ## 贡献POC
 贡献者以 PR 的方式向 githuh 仓库内提交POC，在提交之前请搜索仓库的 poc 文件夹以及 Github 的 Pull request, 确保该 POC 没有被提交。
 # 相关资料
