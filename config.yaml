@@ -1,0 +1,27 @@
+# 全局 http 发包配置
+http:
+  proxy:                                # 漏洞扫描时使用的代理，如: http://127.0.0.1:8080
+  read_timeout: 10                      # 等待 http 响应的超时时间，单位秒，默认10秒
+  max_conns_per_host: 30                # 同一 host 最大允许的连接数，可以根据目标主机性能适当增大
+  fail_retries: 0                       # 请求失败的重试次数，0 则不重试
+  max_redirect: 0                       # 单个请求最大允许的重定向次数
+  max_resp_body_size: 2097152           # 最大允许的响应大小, 单位byte，默认2Mb
+  max_qps: 300                          # 每秒最大请求数
+
+# 被动代理配置
+mitm:
+  ca_cert: ./ca.crt                     # CA 根证书路径
+  ca_key: ./ca.key                      # CA 私钥路径
+  restriction:                          # 代理能够访问的资源限制, 以下各项为空表示不限制
+    hostname_allowed: []                # 允许访问的 Hostname，支持格式如 t.com、*.t.com
+    hostname_disallowed:                # 不允许访问的 Hostname，支持格式如 t.com、*.t.com
+    - '*google*'
+    - '*baidu*'
+    - '*.gov.cn'
+    - '*.edu.cn'
+    port_allowed: []                    # 允许访问的端口, 支持的格式如: 80、80-85
+    port_disallowed: []                 # 不允许访问的端口, 支持的格式如: 80、80-85
+    path_allowed: []                    # 允许访问的路径，支持的格式如: test、*test*
+    path_disallowed: []                 # 不允许访问的路径, 支持的格式如: test、*test*
+  queue_max_length: 3000                # 队列长度限制, 也可以理解为最大允许多少等待扫描的请求, 请根据内存大小自行调整
+
