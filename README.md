@@ -38,6 +38,50 @@ POC会不断进行更新，以支持检测更多的漏洞。
 	
 	检测ThinkPHP开发的网站的相关漏洞
 * ...
+已支持漏洞检测列表
+
+| 类别        | CVE编号        | 漏洞名称                                            | 支持 |
+| ----------- | -------------- | --------------------------------------------------- | ---- |
+| CVE（2022） | CVE-2022-0540  | Jira身份验证绕过漏洞                                | ✔    |
+| CVE（2022） | CVE-2022-22954 | VMware Workspace ONE Access SSTI RCE 漏洞           | ✔    |
+| CVE（2022） | CVE-2022-26134 | Confluence OGNL RCE 漏洞                            | ✔    |
+| CVE（2022） | CVE-2022-34590 | Hospital Management System SQL注入漏洞              | ✔    |
+| CVE（2022） | CVE-2022-35151 | kkFileView v4.1.0 包含多个跨站点脚本 (XSS) 漏洞     | ✔    |
+| CVE（2022） | CVE-2022-35413 | WAPPLES 硬编码漏洞                                  | ✔    |
+| CVE（2022） | CVE-2022-35914 | GLPI 注入漏洞                                       | ✔    |
+| CVE（2022） | CVE-2022-36642 | Telos Alliance Omnia MPX Node 信息泄露漏洞          | ✔    |
+| CVE（2022） | CVE-2022-36883 | Jenkins 身份验证绕过漏洞                            | ✔    |
+| CVE（2022） | CVE-2022-37299 | Shirne CMS controller.php 目录遍历漏洞              | ✔    |
+| CVE（2021） | CVE-2021-26086 | Atlassian Jira server文件读取漏洞                   | ✔    |
+| CVE（2021） | CVE-2021-29622 | Prometheus 重定向漏洞                               | ✔    |
+| CVE（2021） | CVE-2021-30497 | Avalanche 目录遍历漏洞                              | ✔    |
+| CVE（2021） | CVE-2021-33807 | Cartadis Gespage 目录遍历漏洞                       | ✔    |
+| CVE（2021） | CVE-2021-34473 | Microsoft Exchange Server 远程代码执行漏洞          | ✔    |
+| CVE（2021） | CVE-2021-35380 | Solari di Udine TermTalk Server 目录遍历漏洞        | ✔    |
+| CVE（2021） | CVE-2021-35464 | ForgeRock AM 服务器 Java 反序列化漏洞               | ✔    |
+| CVE（2021） | CVE-2021-35587 | Oracle Access Manager 身份验证绕过漏洞              | ✔    |
+| CVE（2021） | CVE-2021-37538 | SmartDataSoft SmartBlog for PrestaShop SQL 注入漏洞 | ✔    |
+| CVE（2021） | CVE-2021-37704 | PhpFastCache 信息泄露漏洞                           | ✔    |
+| CVE（2021） | CVE-2021-39211 | GLPI 信息泄露漏洞                                   | ✔    |
+| CVE（2021） | CVE-2021-39226 | Grafana 漏洞                                        | ✔    |
+| CVE（2021） | CVE-2021-39327 | BulletProof Security WordPress信息泄露漏洞          | ✔    |
+| CVE（2021） | CVE-2021-40149 | E1 Zoom信息泄露漏洞                                 | ✔    |
+| CVE（2021） | CVE-2021-40859 | Auerswald COMpact 5500R后门漏洞                     | ✔    |
+| CVE（2021） | CVE-2021-40875 | Gurock TestRail感信息泄露漏洞                       | ✔    |
+| CVE（2021） | CVE-2021-41192 | Redash 伪造会话漏洞                                 | ✔    |
+| CVE（2021） | CVE-2021-41266 | Minio身份验证绕过漏洞                               | ✔    |
+| CVE（2021） | CVE-2021-41381 | Payara Micro Community目录遍历漏洞                  | ✔    |
+| CVE（2021） | CVE-2021-41649 | PuneethReddyHC SQL注入漏洞                          | ✔    |
+| CVE（2021） | CVE-2021-43496 | Clustering目录遍历漏洞                              | ✔    |
+| CVE（2021） | CVE-2021-43798 | Grafana目录遍历漏洞                                 | ✔    |
+| CVE（2021） | CVE-2021-44077 | Zoho远程代码执行漏洞                                | ✔    |
+| CVE（2021） | CVE-2021-44152 | Reprise RLM越权漏洞                                 | ✔    |
+| CVE（2021） | CVE-2021-44427 | Rosario 学生信息系统SQL 注入漏洞                    | ✔    |
+| CVE（2021） | CVE-2021-44515 | Zoho远程代码执行漏洞                                | ✔    |
+| CVE（2021） | CVE-2021-44529 | Ivanti EPM 云服务设备RCE漏洞                        | ✔    |
+| CVE（2021） | CVE-2021-46381 | D-Link DAP-1620目录遍历漏洞                         | ✔    |
+| CVE（2021） | CVE-2021-46417 | Franklin Fueling Systems Colibr信息泄露漏洞         | ✔    |
+| CVE（2021） | CVE-2021-46422 | Telesquare SDT-CW3B1命令注入漏洞                    | ✔    |
 # scalpel下载
 scalpel是单文件的二进制可执行文件，由纯go语言编写，无需安装其它依赖，下载之后可以直接使用。scalpel支持多个平台，请根据您的平台或者需求下载相应的版本。
 * Windows X64
