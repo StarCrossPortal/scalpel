@@ -146,7 +146,7 @@ Use "scalpel [command] --help" for more information about a command.
 
 **Bug反馈**
 
-请提交在GitHub Issues中，提供当前的scalpel版本、报错信息或截图、能够复现这个问题的环境并详细描述您的复现步骤。
+请提交在[GitHub Issues](https://github.com/StarCrossPortal/scalpel/issues)中，提供当前的scalpel版本、报错信息或截图、能够复现这个问题的环境并详细描述您的复现步骤。
 
 **功能建议**
 
