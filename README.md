@@ -82,12 +82,15 @@ sha256.txt 是校验文件，内含个版本二进制文件的 sha256 的哈希�
 首先感谢您花费时间来使scalpel变得更好用👍
 
 Bug反馈
+
 请提交在GitHub Issues中，提供当前的scalpel版本、报错信息或截图、能够复现这个问题的环境并详细描述您的复现步骤。
 
 功能建议
+
 在GitHub Discussions中您可以畅所欲言，同开发人员讨论您想要的功能。
 
 POC贡献
+
 贡献者以 PR 的方式向 githuh 仓库内提交POC，在提交之前请搜索仓库的 poc 文件夹以及 Github 的 Pull request, 确保该 POC 没有被提交。
 # 讨论区
 如有问题可以在 星阑实验室公众号反馈
