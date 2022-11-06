@@ -111,6 +111,22 @@ scalpel是单文件的二进制可执行文件，由纯go语言编写，无需�
         scalpel-darwin-amd64
 
 sha256.txt 是校验文件，内含个版本二进制文件的 sha256 的哈希值，请下载后自行校验以防被劫持。
+# 用法
+        Usage:
+  scalpel [flags]
+  scalpel [command]
+
+Available Commands:
+  genca       Generate ca certificate
+  help        Help about any command
+  poc         Poc mode, use poc to scan for vulnerabilities
+
+Flags:
+  -h, --help      help for scalpel
+  -v, --version   version for scalpel
+
+Use "scalpel [command] --help" for more information about a command.
+
 # 运行
 下载之后，进行解压，会产生两个文件，其中scalpel-xxx是对应平台的二进制可执行文件，而config.yaml是scalpel的配置文件，可以通过config.yaml对scalpel进行配置。
 ## Windows
