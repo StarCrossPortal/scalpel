@@ -1,6 +1,6 @@
 # scalpel🗡
 scalpel是一款命令行扫描器，**它可以深度解析http请求中的参数，从而根据poc产生更加精确的http报文**。目前支持http被动代理模式进行扫描。用户可以自定义POC，同时我们也在Github上公开了POC仓库。
-🧾# 免责声明
+# 📃免责声明
 本工具仅面向合法授权的安全测试和研究行为，如您需要测试本工具的可用性，请自行搭建靶机环境。
 
 为避免被恶意使用，本项目所有收录的poc均为漏洞的理论判断，不存在漏洞利用过程，不会对目标发起真实攻击和漏洞利用。
@@ -10,7 +10,7 @@ scalpel是一款命令行扫描器，**它可以深度解析http请求中的参�
 如您在使用本工具的过程中存在任何非法行为，您需自行承担相应后果，我们将不承担任何法律及连带责任。
 
 在安装并使用本工具前，**请您务必审慎阅读、充分理解各条款内容，限制、免责条款或者其他涉及您重大权益的条款**可能会以加粗、加下划线等形式提示您重点注意。您的使用行为或者您以其他任何明示或者默示方式表示接受本协议的，即视为您已阅读并同意本协议的约束。
-# 支持的POC列表
+# 🛠检测模块
 POC会不断进行更新，以支持检测更多的漏洞。
 * CVE漏洞检测
 
@@ -215,7 +215,7 @@ Use "scalpel [command] --help" for more information about a command.
 配置和使用详情请见[Wiki](https://github.com/StarCrossPortal/scalpel/wiki/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E6%89%AB%E6%8F%8F)
 # POC编写说明
 有关POC的编写，见[POC编写指南](https://github.com/StarCrossPortal/scalpel/wiki/POC%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97)
-# 反馈及贡献POC
+# 📩反馈及贡献POC
 首先感谢您花费时间来使scalpel变得更好用👍
 
 **Bug反馈**
@@ -229,13 +229,13 @@ Use "scalpel [command] --help" for more information about a command.
 **POC贡献**
 
 贡献者以 PR 的方式向 githuh 仓库内提交POC，在提交之前请搜索仓库的 poc 文件夹以及 Github 的 Pull request, 确保该 POC 没有被提交。
-# 讨论区
+# 📝讨论区
 如有问题可以在 星阑实验室公众号反馈
 
 微信公众号：微信扫描以下二维码，关注我们
 
 ![公众号](picture/%E5%85%AC%E4%BC%97%E5%8F%B7.png)
-# 相关资料
+# 🗂相关资料
 ## KCON 2022
 
 * https://mp.weixin.qq.com/s/MCtwiT93Fo9Js9ekuD-8wA
