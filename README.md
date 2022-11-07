@@ -210,7 +210,7 @@ Flags:
 Use "scalpel [command] --help" for more information about a command.
 ```
 
-# POC编写说明
+# POC编写
 有关POC的编写，见[POC编写指南](https://github.com/StarCrossPortal/scalpel/wiki/POC%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97)
 
 # 反馈及贡献POC
