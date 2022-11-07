@@ -1,5 +1,6 @@
 <h1 align="center">scalpel</h1>
-scalpel是一款命令行扫描器，它可以深度解析http请求中的参数，从而根据poc产生更加精确的http报文。目前支持http被动代理模式进行扫描。用户可以自定义POC，同时我们也在Github上公开了POC仓库。
+> scalpel是一款命令行扫描器，它可以深度解析http请求中的参数，从而根据poc产生更加精确的http报文。目前支持http被动代理模式进行扫描。用户可以自定义POC，同时我们也在Github上公开了POC仓库。
+
 
 # 免责声明
 本工具仅面向合法授权的安全测试和研究行为，**请勿对非授权目标进行扫描**。如您在使用本工具的过程中存在任何非法行为，您需自行承担相应后果，我们将不承担任何法律及连带责任。如您需要测试本工具的可用性，请自行搭建靶机环境。
@@ -8,35 +9,127 @@ scalpel是一款命令行扫描器，它可以深度解析http请求中的参数
 
 在安装并使用本工具前，**请您务必审慎阅读、充分理解各条款内容，限制、免责条款或者其他涉及您重大权益的条款**可能会以加粗、加下划线等形式提示您重点注意。您的使用行为或者您以其他任何明示或者默示方式表示接受本协议的，即视为您已阅读并同意本协议的约束。
 # 检测模块
-POC会不断进行更新，以支持检测更多的漏洞。
+检测模块会不断进行更新，以支持检测更多的漏洞。
 * CVE漏洞检测
 
-	支持CVE系列漏洞检测
+  支持CVE系列漏洞检测
+
 * XSS漏洞检测
 
-	支持XSS漏洞检测
+  支持XSS漏洞检测
+
 * SQL 注入检测
 
-	支持报错注入、布尔注入等
+  支持报错注入、布尔注入等
+
 * 命令/代码注入检测
 
-	支持 shell 命令注入、 代码执行、模板注入等
+  支持 shell 命令注入、 代码执行、模板注入等
+
 * CRLF 注入 (key: crlf-injection)
 
-	检测 HTTP 头注入，支持 query、body 等位置的参数
+  检测 HTTP 头注入，支持 query、body 等位置的参数
+
 * 用友软件 系列漏洞检查
 
-	检测使用的用友系统是否存在漏洞
+  检测使用的用友系统是否存在漏洞
+
 * springboot 系列漏洞检测
 
-	检测目标网站是否存在springboot系列漏洞
+  检测目标网站是否存在springboot系列漏洞
 
 * Thinkphp系列漏洞检测
-	
-	检测ThinkPHP开发的网站的相关漏洞
+
+  检测ThinkPHP开发的网站的相关漏洞
+
 * ...
 
-已支持漏洞检测列表
+# 功能特色
+
+Scalpel支持**深度参数注入**，其拥有一个强大的数据解析和变异算法，它可以将常见的数据格式（json, xml, form等）解析为树结构，然后根据poc中的规则，对树进行变异，包括对叶子节点和树结构的变异。变异完成之后，将树结构还原为原始的数据格式。
+
+
+
+解决在HTTP应用漏洞Fuzz过程中，**传统的「Form表单明文传参的模式」逐渐变为「复杂、嵌套编码的参数传递」**无法直接对参数内容进行注入或替换，深入底层的漏洞触发点的问题。
+
+
+# 快速使用
+
+scalpel使用代理模式进行被动扫描
+`.\scalpel-windows-amd64.exe poc -l 127.0.0.1:8888 -f poc.yaml -o vuln.html`
+
+具体的下载、运行、配置请参考Wiki
+# 下载
+scalpel是单文件的二进制可执行文件，由纯go语言编写，无需安装其它依赖，下载之后可以直接使用。scalpel支持多个平台，请根据您的平台或者需求下载相应的版本。
+* Windows X64
+
+        scalpel-windows-amd64
+
+* Windows X86
+
+        scalpel-windows-x86
+* Linux X64
+
+        scalpel-linux-amd64
+
+* Linux x86
+
+        scalpel-linux-x86
+* Linux ARM64
+
+        scalpel-linux-arm64
+
+* MacOS ARM64(适用于M1芯片的MacOS)
+
+        scalpel-darwin-arm64
+* MacOS X64(适用于Intel芯片的MacOS)
+
+        scalpel-darwin-amd64
+
+sha256.txt 是校验文件，内含个版本二进制文件的 sha256 的哈希值，请下载后自行校验以防被劫持。
+
+# 运行
+下载之后，进行解压，会产生两个文件，其中scalpel-xxx是对应平台的二进制可执行文件，而config.yaml是scalpel的配置文件，可以通过config.yaml对scalpel进行配置。
+## Windows
+在Window下，您可以在Windows的cmd或者powershell通过运行`.\scalpel-windows-amd64.exe -v`来运行scalpel，即可查看到scalpel的版本号。
+## Linux
+在Linux下，您可以在终端中通过运行`.\scalpel-linux-amd64 -v`来运行scalpel，即可查看到scalpel的版本号。如果您无法执行scalpel，可能是因为scalpel的二进制程序没有可执行权限，你可以通过`chmod +x scalpel-linux-amd64`命令来赋予scalpel可执行权限。
+## MacOS
+在MacOS下，您可以打开您使用的终端工具，比如 Terminal 或者 iTerm，然后在终端中通过运行`.\scalpel-darwin-amd64 -v`来运行scalpel，即可查看到scalpel的版本号。
+# 配置
+配置和使用详情请见[Wiki](https://github.com/StarCrossPortal/scalpel/wiki/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E6%89%AB%E6%8F%8F)
+# 用法
+```
+Usage:
+  scalpel [flags]
+  scalpel [command]
+
+Available Commands:
+  genca       Generate ca certificate
+  help        Help about any command
+  poc         Poc mode, use poc to scan for vulnerabilities
+
+Flags:
+  -h, --help      help for scalpel
+  -v, --version   version for scalpel
+
+Use "scalpel [command] --help" for more information about a command.
+```
+
+
+
+# POC相关
+
+**POC的编写**
+
+详情见[POC编写指南](https://github.com/StarCrossPortal/scalpel/wiki/POC%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97)
+
+**POC贡献**
+
+贡献者以 PR 的方式向 githuh 仓库内提交POC，在提交之前请搜索仓库的 poc 文件夹以及 Github 的 Pull request, 确保该 POC 没有被提交。
+
+**POC参考**
+目前scalpel已集成100+漏洞POC
 
 | 类别        | CVE编号        | 漏洞名称                                            | 支持 |
 | ----------- | -------------- | --------------------------------------------------- | ---- |
@@ -154,84 +247,13 @@ POC会不断进行更新，以支持检测更多的漏洞。
 
 
 
-# 下载
-scalpel是单文件的二进制可执行文件，由纯go语言编写，无需安装其它依赖，下载之后可以直接使用。scalpel支持多个平台，请根据您的平台或者需求下载相应的版本。
-* Windows X64
-
-        scalpel-windows-amd64
-
-* Windows X86
-
-        scalpel-windows-x86
-* Linux X64
-
-        scalpel-linux-amd64
-
-* Linux x86
-
-        scalpel-linux-x86
-* Linux ARM64
-
-        scalpel-linux-arm64
-
-* MacOS ARM64(适用于M1芯片的MacOS)
-
-        scalpel-darwin-arm64
-* MacOS X64(适用于Intel芯片的MacOS)
-
-        scalpel-darwin-amd64
-
-sha256.txt 是校验文件，内含个版本二进制文件的 sha256 的哈希值，请下载后自行校验以防被劫持。
-
-# 运行
-下载之后，进行解压，会产生两个文件，其中scalpel-xxx是对应平台的二进制可执行文件，而config.yaml是scalpel的配置文件，可以通过config.yaml对scalpel进行配置。
-## Windows
-在Window下，您可以在Windows的cmd或者powershell通过运行`.\scalpel-windows-amd64.exe -v`来运行scalpel，即可查看到scalpel的版本号。
-## Linux
-在Linux下，您可以在终端中通过运行`.\scalpel-linux-amd64 -v`来运行scalpel，即可查看到scalpel的版本号。如果您无法执行scalpel，可能是因为scalpel的二进制程序没有可执行权限，你可以通过`chmod +x scalpel-linux-amd64`命令来赋予scalpel可执行权限。
-## MacOS
-在MacOS下，您可以打开您使用的终端工具，比如 Terminal 或者 iTerm，然后在终端中通过运行`.\scalpel-darwin-amd64 -v`来运行scalpel，即可查看到scalpel的版本号。
-# 配置
-配置和使用详情请见[Wiki](https://github.com/StarCrossPortal/scalpel/wiki/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E6%89%AB%E6%8F%8F)
-# 用法
-```
-Usage:
-  scalpel [flags]
-  scalpel [command]
-
-Available Commands:
-  genca       Generate ca certificate
-  help        Help about any command
-  poc         Poc mode, use poc to scan for vulnerabilities
-
-Flags:
-  -h, --help      help for scalpel
-  -v, --version   version for scalpel
-
-Use "scalpel [command] --help" for more information about a command.
-```
-
-# POC编写
-有关POC的编写，见[POC编写指南](https://github.com/StarCrossPortal/scalpel/wiki/POC%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97)
-
-# 反馈及贡献POC
+# 反馈
 首先感谢您花费时间来使scalpel变得更好用👍
 
-**Bug反馈**
+如有任何误报需求等问题可以通过以下方式进行反馈
 
-请提交在[GitHub Issues](https://github.com/StarCrossPortal/scalpel/issues)中，提供当前的scalpel版本、报错信息或截图、能够复现这个问题的环境并详细描述您的复现步骤。
-
-**功能建议**
-
-在GitHub Discussions中您可以畅所欲言，同开发人员讨论您想要的功能。
-
-**POC贡献**
-
-贡献者以 PR 的方式向 githuh 仓库内提交POC，在提交之前请搜索仓库的 poc 文件夹以及 Github 的 Pull request, 确保该 POC 没有被提交。
-# 讨论区
-如有问题可以在 星阑实验室公众号反馈
-
-微信公众号：微信扫描以下二维码，关注我们
+1、GitHub issue：[GitHub Issues](https://github.com/StarCrossPortal/scalpel/issues)
+2、微信公众号：微信扫描以下二维码，关注我们
 
 ![公众号](picture/%E5%85%AC%E4%BC%97%E5%8F%B7.png)
 # 相关资料
