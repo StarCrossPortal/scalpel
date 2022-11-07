@@ -1,4 +1,4 @@
-<h1 align="center">scalpel</h1>
+<h1 align="center">scalpel🗡</h1>
 
   ![go](picture/label/go-blue.svg)
   ![fuzz](picture/label/fuzz-blue.svg)
