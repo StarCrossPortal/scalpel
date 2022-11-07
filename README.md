@@ -7,7 +7,7 @@
   
   > scalpel是一款命令行扫描器，它可以深度解析http请求中的参数，从而根据poc产生更加精确的http报文。目前支持http被动代理模式进行扫描。用户可以自定义POC，同时我们也在Github上公开了POC仓库。
   
-  ![]([picture/label/go-blue.svg](https://github.com/StarCrossPortal/scalpel/blob/master/picture/demo.gif))
+ ![](https://github.com/StarCrossPortal/scalpel/blob/master/picture/demo.gif)
 
 
 # 免责声明
