@@ -198,7 +198,8 @@ Scalpel的下载、运行、配置具体请参考[Wiki](https://github.com/StarC
 
 如有任何误报需求等问题可以通过以下方式进行反馈
 
-1、GitHub issue：[GitHub Issues](https://github.com/StarCrossPortal/scalpel/issues)
+1、GitHub issue：https://github.com/StarCrossPortal/scalpel/issues
+
 2、微信公众号：微信扫描以下二维码，关注我们
 
 ![公众号](picture/%E5%85%AC%E4%BC%97%E5%8F%B7.png)
