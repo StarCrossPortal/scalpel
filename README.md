@@ -153,6 +153,7 @@ POC会不断进行更新，以支持检测更多的漏洞。
 | ThinkPHP    |                | thinkphp-509-information-disclosure       | ✔    |
 | 通用        |                | 任意文件读取漏洞                          | ✔    |
 
+后续将持续更新
 
 
 
