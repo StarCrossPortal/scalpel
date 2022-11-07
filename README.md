@@ -89,7 +89,7 @@ Scalpel的下载、运行、配置具体请参考[Wiki](https://github.com/StarC
 **POC贡献**
 
 
-贡献者以 PR 的方式向 githuh 仓库内提交POC，在提交之前请搜索仓库的 poc 文件夹以及 Github 的 Pull request, 确保该 POC 没有被提交。
+贡献者以 PR 的方式向 github 仓库内提交POC，在提交之前请搜索仓库的 poc 文件夹以及 Github 的 Pull request, 确保该 POC 没有被提交。
 
 
 **POC参考**
