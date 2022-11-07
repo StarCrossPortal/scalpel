@@ -83,7 +83,41 @@ POC会不断进行更新，以支持检测更多的漏洞。
 | CVE（2021） | CVE-2021-46381 | D-Link DAP-1620目录遍历漏洞                         | ✔    |
 | CVE（2021） | CVE-2021-46417 | Franklin Fueling Systems Colibr信息泄露漏洞         | ✔    |
 | CVE（2021） | CVE-2021-46422 | Telesquare SDT-CW3B1命令注入漏洞                    | ✔    |
-# scalpel下载
+|CVE（2020）|CVE-2020-12478|TeamPass 注入漏洞|✔|
+|CVE（2020）|CVE-2020-13700|WordPress acf-to-rest-api 信息泄露漏洞|✔|
+|CVE（2020）|CVE-2020-13937|Apache Kylin 安全漏洞|✔|
+|CVE（2020）|CVE-2020-14181|Atlassian Jira 信息泄露漏洞|✔|
+|CVE（2020）|CVE-2020-14408|Agentejo Cockpit 跨站脚本漏洞|✔|
+|CVE（2020）|CVE-2020-15148|Yii 代码问题漏洞|✔|
+|CVE（2020）|CVE-2020-35338|Mobile Viewpoint Wireless Multiplex Terminal 信任管理问题漏洞|✔|
+|CVE（2020）|CVE-2020-35476|OpenTSDB 命令注入漏洞|✔|
+|CVE（2020）|CVE-2020-35489|Wordpress contact-form-7 代码问题漏洞|✔|
+|CVE（2020）|CVE-2020-35736|Liftoff GateOne 路径遍历漏洞|✔|
+|CVE（2020）|CVE-2020-36112|Projectworlds Online Book Store Project In Php SQL注入漏洞|✔|
+|CVE（2020）|CVE-2020-36289|Atlassian JIRA Server 和 Atlassian JIRA Data Center 信息泄露漏洞|✔|
+|CVE（2020）|CVE-2020-26948|Emby Server 代码问题漏洞|✔|
+|CVE（2020）|CVE-2020-27361|Akkadian Provisioning Manager 安全漏洞|✔|
+|CVE（2020）|CVE-2020-27467|Lfi-ProcessWire Cms  路径遍历漏洞|✔|
+|CVE（2020）|CVE-2020-27866|多款Netgear产品授权问题漏洞|✔|
+|CVE（2020）|CVE-2020-27982|IceWarp Mail Server 跨站脚本漏洞|✔|
+|CVE（2020）|CVE-2020-29395|WordPress plugin 跨站脚本漏洞|✔|
+|CVE（2020）|CVE-2020-24312|WordPress plugin mndpsingh287 WP File Manager  信息泄露漏洞|✔|
+|CVE（2020）|CVE-2020-24550|Elastic EpiServer Find 输入验证错误漏洞|✔|
+|CVE（2020）|CVE-2020-24571|NexusQA NexusDB 路径遍历漏洞|✔|
+|CVE（2020）|CVE-2020-24949|PHP-Fusion 安全漏洞|✔|
+|CVE（2020）|CVE-2020-26073|Cisco?SD-WAN vManage 信息泄露漏洞|✔|
+|CVE（2020）|CVE-2020-26876|WordPress 安全漏洞|✔|
+|CVE（2020）|CVE-2020-16139|Cisco 7937G 输入验证错误漏洞|✔|
+|CVE（2020）|CVE-2020-17453|WSO2 Management Console 跨站脚本漏洞|✔|
+|CVE（2020）|CVE-2020-17519|Apache Flink 安全漏洞|✔|
+|CVE（2020）|CVE-2020-19625|sheila1227 gridx 安全漏洞|✔|
+|CVE（2020）|CVE-2020-20300|Weiphp SQL注入漏洞|✔|
+|CVE（2020）|CVE-2020-23015|Deciso OPNsense 输入验证错误漏洞|✔|
+
+
+
+
+# scalpel|||下载
 scalpel是单文件的二进制可执行文件，由纯go语言编写，无需安装其它依赖，下载之后可以直接使用。scalpel支持多个平台，请根据您的平台或者需求下载相应的版本。
 * Windows X64
 
