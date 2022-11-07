@@ -58,7 +58,9 @@ Scalpel支持**深度参数注入**，其拥有一个强大的数据解析和变
 
 scalpel使用代理模式进行被动扫描，以Windows系统为例：
 
+
 `.\scalpel-windows-amd64.exe poc -l 127.0.0.1:8888 -f poc.yaml -o vuln.html`
+
 
 
 Scalpel的下载、运行、配置具体请参考[Wiki](https://github.com/StarCrossPortal/scalpel/wiki)
@@ -189,11 +191,11 @@ Scalpel的下载、运行、配置具体请参考[Wiki](https://github.com/StarC
 | ThinkPHP    |                | thinkphp-509-information-disclosure       | ✔    |
 | 通用        |                | 任意文件读取漏洞                          | ✔    |
 
-后续将持续更新
+POC将持续更新
 
 
 
-# 反馈
+# 问题反馈
 首先感谢您花费时间来使scalpel变得更好用👍
 
 如有任何误报需求等问题可以通过以下方式进行反馈
