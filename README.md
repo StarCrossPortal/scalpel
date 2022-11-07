@@ -83,36 +83,75 @@ POC会不断进行更新，以支持检测更多的漏洞。
 | CVE（2021） | CVE-2021-46381 | D-Link DAP-1620目录遍历漏洞                         | ✔    |
 | CVE（2021） | CVE-2021-46417 | Franklin Fueling Systems Colibr信息泄露漏洞         | ✔    |
 | CVE（2021） | CVE-2021-46422 | Telesquare SDT-CW3B1命令注入漏洞                    | ✔    |
-|CVE（2020）|CVE-2020-12478|TeamPass 注入漏洞|✔|
-|CVE（2020）|CVE-2020-13700|WordPress acf-to-rest-api 信息泄露漏洞|✔|
-|CVE（2020）|CVE-2020-13937|Apache Kylin 安全漏洞|✔|
-|CVE（2020）|CVE-2020-14181|Atlassian Jira 信息泄露漏洞|✔|
-|CVE（2020）|CVE-2020-14408|Agentejo Cockpit 跨站脚本漏洞|✔|
-|CVE（2020）|CVE-2020-15148|Yii 代码问题漏洞|✔|
-|CVE（2020）|CVE-2020-35338|Mobile Viewpoint Wireless Multiplex Terminal 信任管理问题漏洞|✔|
-|CVE（2020）|CVE-2020-35476|OpenTSDB 命令注入漏洞|✔|
-|CVE（2020）|CVE-2020-35489|Wordpress contact-form-7 代码问题漏洞|✔|
-|CVE（2020）|CVE-2020-35736|Liftoff GateOne 路径遍历漏洞|✔|
-|CVE（2020）|CVE-2020-36112|Projectworlds Online Book Store Project In Php SQL注入漏洞|✔|
-|CVE（2020）|CVE-2020-36289|Atlassian JIRA Server 和 Atlassian JIRA Data Center 信息泄露漏洞|✔|
-|CVE（2020）|CVE-2020-26948|Emby Server 代码问题漏洞|✔|
-|CVE（2020）|CVE-2020-27361|Akkadian Provisioning Manager 安全漏洞|✔|
-|CVE（2020）|CVE-2020-27467|Lfi-ProcessWire Cms  路径遍历漏洞|✔|
-|CVE（2020）|CVE-2020-27866|多款Netgear产品授权问题漏洞|✔|
-|CVE（2020）|CVE-2020-27982|IceWarp Mail Server 跨站脚本漏洞|✔|
-|CVE（2020）|CVE-2020-29395|WordPress plugin 跨站脚本漏洞|✔|
-|CVE（2020）|CVE-2020-24312|WordPress plugin mndpsingh287 WP File Manager  信息泄露漏洞|✔|
-|CVE（2020）|CVE-2020-24550|Elastic EpiServer Find 输入验证错误漏洞|✔|
-|CVE（2020）|CVE-2020-24571|NexusQA NexusDB 路径遍历漏洞|✔|
-|CVE（2020）|CVE-2020-24949|PHP-Fusion 安全漏洞|✔|
-|CVE（2020）|CVE-2020-26073|Cisco?SD-WAN vManage 信息泄露漏洞|✔|
-|CVE（2020）|CVE-2020-26876|WordPress 安全漏洞|✔|
-|CVE（2020）|CVE-2020-16139|Cisco 7937G 输入验证错误漏洞|✔|
-|CVE（2020）|CVE-2020-17453|WSO2 Management Console 跨站脚本漏洞|✔|
-|CVE（2020）|CVE-2020-17519|Apache Flink 安全漏洞|✔|
-|CVE（2020）|CVE-2020-19625|sheila1227 gridx 安全漏洞|✔|
-|CVE（2020）|CVE-2020-20300|Weiphp SQL注入漏洞|✔|
-|CVE（2020）|CVE-2020-23015|Deciso OPNsense 输入验证错误漏洞|✔|
+| CVE（2020） | CVE-2020-12478 | eamPass 注入漏洞                                    | ✔    |
+| CVE（2020） | CVE-2020-13700 | WordPress acf-to-rest-api 信息泄露漏洞              | ✔    |
+| CVE（2020） | CVE-2020-13937 | Apache Kylin 安全漏洞                               |✔     |
+| CVE（2020） | CVE-2020-14181 | Atlassian Jira 信息泄露漏洞                         |✔     |
+| CVE（2020） | CVE-2020-14408 | Agentejo Cockpit 跨站脚本漏洞                       |✔     |
+| CVE（2020） | CVE-2020-15148 | Yii 代码问题漏洞                                    |✔     |
+| CVE（2020） | CVE-2020-35338 | Mobile Viewpoint Wireless Multiplex Terminal 信任管理问题漏洞|✔|
+| CVE（2020） | CVE-2020-35476 | OpenTSDB 命令注入漏洞|✔|
+| CVE（2020） | CVE-2020-35489 | Wordpress contact-form-7 代码问题漏洞|✔|
+| CVE（2020） | CVE-2020-35736 | Liftoff GateOne 路径遍历漏洞|✔|
+| CVE（2020） | CVE-2020-36112 | Projectworlds Online Book Store Project In Php SQL注入漏洞|✔|
+| CVE（2020） | CVE-2020-36289 | Atlassian JIRA Server 和 Atlassian JIRA Data Center 信息泄露漏洞|✔|
+| CVE（2020） | CVE-2020-26948 | Emby Server 代码问题漏洞|✔|
+| CVE（2020） | CVE-2020-27361 | Akkadian Provisioning Manager 安全漏洞|✔|
+| CVE（2020） | CVE-2020-27467 | Lfi-ProcessWire Cms  路径遍历漏洞|✔|
+| CVE（2020） | CVE-2020-27866 | 多款Netgear产品授权问题漏洞|✔|
+| CVE（2020） | CVE-2020-27982 | IceWarp Mail Server 跨站脚本漏洞|✔|
+| CVE（2020） | CVE-2020-29395 | WordPress plugin 跨站脚本漏洞|✔|
+| CVE（2020） | CVE-2020-24312 | WordPress plugin mndpsingh287 WP File Manager  信息泄露漏洞|✔|
+| CVE（2020） | CVE-2020-24550 | Elastic EpiServer Find 输入验证错误漏洞|✔|
+| CVE（2020） | CVE-2020-24571 | NexusQA NexusDB 路径遍历漏洞|✔|
+| CVE（2020） | CVE-2020-24949 | PHP-Fusion 安全漏洞|✔|
+| CVE（2020） | CVE-2020-26073 | Cisco?SD-WAN vManage 信息泄露漏洞|✔|
+| CVE（2020） | CVE-2020-26876 | WordPress 安全漏洞|✔|
+| CVE（2020） | CVE-2020-16139 | Cisco 7937G 输入验证错误漏洞|✔|
+| CVE（2020） | CVE-2020-17453 | WSO2 Management Console 跨站脚本漏洞|✔|
+| CVE（2020） | CVE-2020-17519 | Apache Flink 安全漏洞|✔|
+| CVE（2020） | CVE-2020-19625 | sheila1227 gridx 安全漏洞|✔|
+| CVE（2020） | CVE-2020-20300 | Weiphp SQL注入漏洞                       | ✔    |
+| CVE（2020） | CVE-2020-23015 | Deciso OPNsense 输入验证错误漏洞          | ✔    |
+| CVE（2019） | CVE-2019-0230  | Apache Struts远程代码执行漏洞             | ✔    |
+| CVE（2019） | CVE-2019-2578  | Oracle 未授权访问漏洞                     | ✔    |
+| CVE（2019） | CVE-2019-2588  | Oracle Fusion Middleware未授权访问漏洞    | ✔    |
+| CVE（2019） | CVE-2019-3912  | LabKey Server Community Edition重定向漏洞 | ✔    |
+| CVE（2019） | CVE-2019-6715  | WordPress 任意文件读取漏洞                | ✔    |
+| CVE（2019） | CVE-2019-8449  | Jira 信息泄露漏洞                         | ✔    |
+| CVE（2019） | CVE-2019-8903  | Total.js 平台路径遍历漏洞                 | ✔    |
+| CVE（2019） | CVE-2019-10092 | Apache HTTP Server跨站点脚本问题          | ✔    |
+| CVE（2019） | CVE-2019-10232 | Teclib GLPI SQL 注入漏洞                  | ✔    |
+| CVE（2019） | CVE-2019-10717 | BlogEngine.NET 目录遍历漏洞               | ✔    |
+| CVE（2019） | CVE-2019-11248 | Kubernetes healthz 端口公开               | ✔    |
+| CVE（2019） | CVE-2019-11581 | Jira 模板注入漏洞                         | ✔    |
+| CVE（2019） | CVE-2019-12583 | Zyxel UAG、USG 和 ZyWall设备未授权访问    | ✔    |
+| CVE（2019） | CVE-2019-12962 | LiveZilla Server XSS漏洞                  | ✔    |
+| CVE（2019） | CVE-2019-13101 | D-Link DIR-600M 信息泄露漏洞              | ✔    |
+| CVE（2019） | CVE-2019-13462 | Lansweeper SQL 注入漏洞                   | ✔    |
+| CVE（2019） | CVE-2019-14322 | Pallets Werkzeug 错误处理驱动器名称       | ✔    |
+| CVE（2019） | CVE-2019-14974 | SugarCRM Enterprise XSS漏洞               | ✔    |
+| CVE（2019） | CVE-2019-15858 | WordPress XSS漏洞                         | ✔    |
+| CVE（2019） | CVE-2019-16313 | fw8 Router ROM 信息泄露漏洞               | ✔    |
+| CVE（2019） | CVE-2019-16996 | Metinfo 7.0.0beta SQL 注入漏洞            | ✔    |
+| CVE（2019） | CVE-2019-17382 | Zabbix 登录绕过漏洞                       | ✔    |
+| CVE（2019） | CVE-2019-17418 | MetInfo SQL 注入漏洞                      | ✔    |
+| CVE（2019） | CVE-2019-17503 | Kirona 动态资源调度 (DRS)信息泄露漏洞     | ✔    |
+| CVE（2019） | CVE-2019-18393 | Ignite Realtime Openfire 目录遍历漏洞     | ✔    |
+| CVE（2019） | CVE-2019-18922 | AT-S107 V.1.1.3 目录遍历漏洞              | ✔    |
+| CVE（2019） | CVE-2019-19368 | Rumpus FTP Web XSS漏洞                    | ✔    |
+| CVE（2019） | CVE-2019-19781 | Citrix ADC 和网关 目录遍历漏洞            | ✔    |
+| CVE（2019） | CVE-2019-20085 | TVT NVMS-1000 设备 目录遍历漏洞           | ✔    |
+| CVE（2019） | CVE-2019-20933 | InfluxDB 身份验证绕过漏洞                 | ✔    |
+| 用友        |                | yongyou-ERP-NC-目录遍历漏洞               | ✔    |
+| 用友        |                | yongyou-nc-RCE                            | ✔    |
+| 用友        |                | yongyou-本地文件包含漏洞                  | ✔    |
+| springboot  |                | springboot-actuators-jolokia-xxe漏洞      | ✔    |
+| 致远        |                | 致远文件上传漏洞                          | ✔    |
+| 致远        |                | 致远-oa-info-leak漏洞                     | ✔    |
+| 锐捷        |                | 锐捷网关命令执行漏洞                      | ✔    |
+| ThinkPHP    |                | thinkphp-509-information-disclosure       | ✔    |
+| 通用        |                | 任意文件读取漏洞                          | ✔    |
 
 
 
