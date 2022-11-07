@@ -1,11 +1,15 @@
 <h1 align="center">scalpel</h1>
-  
+  ![go](picture/label/go-blue.svg)
+  ![fuzz](picture/label/fuzz-blue.svg)
+  ![pentest](picture/label/pentest-blue.svg)
+  ![scanner](picture/label/scanner-blue.svg)
   > scalpel是一款命令行扫描器，它可以深度解析http请求中的参数，从而根据poc产生更加精确的http报文。目前支持http被动代理模式进行扫描。用户可以自定义POC，同时我们也在Github上公开了POC仓库。
   
   ![go](picture/label/go-blue.svg)
   ![fuzz](picture/label/fuzz-blue.svg)
   ![pentest](picture/label/pentest-blue.svg)
   ![scanner](picture/label/scanner-blue.svg)
+
 
 
 # 免责声明
