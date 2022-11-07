@@ -238,4 +238,5 @@ Use "scalpel [command] --help" for more information about a command.
 # 相关资料
 ## KCON 2022
 
+* https://mp.weixin.qq.com/s/MCtwiT93Fo9Js9ekuD-8wA
 * https://mp.weixin.qq.com/s/hwpr1dmZX6RdAAM5OkgdfQ
