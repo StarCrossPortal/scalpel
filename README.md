@@ -1,5 +1,7 @@
 <h1 align="center">scalpel🗡</h1>
 
+简体中文 | [English](https://github.com/StarCrossPortal/scalpel/wiki)
+
   ![go](picture/label/go-blue.svg)
   ![fuzz](picture/label/fuzz-blue.svg)
   ![pentest](picture/label/pentest-blue.svg)
