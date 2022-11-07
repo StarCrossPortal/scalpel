@@ -57,6 +57,7 @@ Scalpel支持**深度参数注入**，其拥有一个强大的数据解析和变
 # 快速使用
 
 scalpel使用代理模式进行被动扫描
+
 `.\scalpel-windows-amd64.exe poc -l 127.0.0.1:8888 -f poc.yaml -o vuln.html`
 
 具体的下载、运行、配置请参考Wiki
