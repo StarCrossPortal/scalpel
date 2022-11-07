@@ -189,7 +189,7 @@ sha256.txt 是校验文件，内含个版本二进制文件的 sha256 的哈希�
 ## Linux
 在Linux下，您可以在终端中通过运行`.\scalpel-linux-amd64 -v`来运行scalpel，即可查看到scalpel的版本号。如果您无法执行scalpel，可能是因为scalpel的二进制程序没有可执行权限，你可以通过`chmod +x scalpel-linux-amd64`命令来赋予scalpel可执行权限。
 ## MacOS
-在MacOS下，您可以打开您使用的终端工具，比如 Terminal 或者 iTerm，然后在终端中通过运行`.\scalpel-linux-amd64 -v`来运行scalpel，即可查看到scalpel的版本号。
+在MacOS下，您可以打开您使用的终端工具，比如 Terminal 或者 iTerm，然后在终端中通过运行`.\scalpel-darwin-amd64 -v`来运行scalpel，即可查看到scalpel的版本号。
 # 配置
 配置和使用详情请见[Wiki](https://github.com/StarCrossPortal/scalpel/wiki/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E6%89%AB%E6%8F%8F)
 # 用法
