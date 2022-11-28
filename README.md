@@ -209,8 +209,13 @@ Scalpel的下载、运行、配置具体请参考[Wiki](https://github.com/StarC
 | 致远        |                | 致远文件上传漏洞                          | ✔    |
 | 致远        |                | 致远-oa-info-leak漏洞                     | ✔    |
 | 锐捷        |                | 锐捷网关命令执行漏洞                      | ✔    |
+| 锐捷        |                | 锐捷RG-UAC统一上网行为管理系统信息泄露漏洞 | ✔    |
 | ThinkPHP    |                | thinkphp-509-information-disclosure       | ✔    |
-| 通用        |                | 任意文件读取漏洞                          | ✔    |
+| 蓝凌OA      |                | 蓝凌OA前台任意文件读取漏洞                 | ✔    |
+| ShopXO      |                | ShopXO任意文件读取漏洞                     | ✔    |
+| 若依        |                | 若依管理系统任意文件下载漏洞               | ✔    |
+| MessageSolution |            | 企业邮件归档管理系统EEA 信息泄露漏洞       | ✔    |
+| 通用        |                | 任意文件读取漏洞                           | ✔    |
 
 POC将持续更新
 
