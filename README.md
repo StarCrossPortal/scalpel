@@ -227,12 +227,3 @@ POC将持续更新
 如有任何误报需求等问题可以通过以下方式进行反馈
 
 1、GitHub issue：https://github.com/StarCrossPortal/scalpel/issues
-
-2、微信公众号：微信扫描以下二维码，关注我们
-
-![公众号](picture/%E5%85%AC%E4%BC%97%E5%8F%B7.png)
-# 相关资料
-## KCON 2022
-
-* https://mp.weixin.qq.com/s/MCtwiT93Fo9Js9ekuD-8wA
-* https://mp.weixin.qq.com/s/hwpr1dmZX6RdAAM5OkgdfQ
